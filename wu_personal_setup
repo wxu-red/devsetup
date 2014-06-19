@@ -4,3 +4,4 @@ yum -y install ImageMagick.x86_64
 yum -y install ImageMagick-devel.x86_64
 yum -y install gperftools-libs.x86_64
 yum -y install liboauth.x86_64
+yum -y install liboauth-devel.x86_64
