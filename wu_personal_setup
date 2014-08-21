@@ -5,3 +5,7 @@ yum -y install ImageMagick-devel.x86_64
 yum -y install gperftools-libs.x86_64
 yum -y install liboauth.x86_64
 yum -y install liboauth-devel.x86_64
+
+#Metscripts
+cd /
+git clone git@github.com:TheWeatherCompany/wxu-metscripts.git
