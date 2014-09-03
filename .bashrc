@@ -41,7 +41,7 @@ if [ -f /etc/bash_completion.d/git ]; then
     source /etc/bash_completion.d/git
     GIT_PS1_SHOWDIRTYSTATE=1
     GIT_PS1_SHOWSTASHSTATE=1
-    PS1='\[$(tput bold)\](\t)[\[\e[1;32m\]\u@\[\[\e[1;32m\]\h\e[0m\]\[$(tput bold)\]]\e[0m\]\[\e[1;34m\]\[$(__git_ps1)\e[0m\]:\w'
+    PS1='\[$(tput bold)\](\t)[\[\e[1;32m\]\u@\[\[\e[1;32m\]\h\e[0m\]\[$(tput bold)\]]\e[0m\]\[\e[1;34m\]\[$(__git_ps1)\e[0m\]\w: '
 fi
 
 export PS1
