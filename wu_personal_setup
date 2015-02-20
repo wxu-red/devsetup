@@ -9,3 +9,15 @@ yum -y install liboauth-devel.x86_64
 #Metscripts
 cd /
 git clone git@github.com:TheWeatherCompany/wxu-metscripts.git
+
+
+#libs3
+cd /code/3rdparty/libs3/
+make
+make install
+
+#boto
+pip install boto
+
+#Django
+yum -y install mod_wsgi
