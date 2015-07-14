@@ -12,7 +12,7 @@ set background=dark
 set backupext=.bak
 set showmatch
 syntax on
-set tabstop=8
+set tabstop=4
 set expandtab
 set shiftwidth=4
 set softtabstop=4
