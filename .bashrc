@@ -5,6 +5,8 @@ if [ -f /etc/bashrc ]; then
 		. /etc/bashrc
 fi
 
+alias cd="cd ~/Source/pl/"
+
 
 PS1="\[$(tput bold)\](\t)[\[$(tput setaf 6)\]\u@\h\[$(tput setaf 2)\] \w]>\[$(tput sgr0)\]"
 
