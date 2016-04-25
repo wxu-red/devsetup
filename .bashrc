@@ -56,3 +56,5 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 #export CLICOLOR=1
 #export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export PATH=/opt/centos/devtoolset-1.1/root/usr/bin/:$PATH
+
